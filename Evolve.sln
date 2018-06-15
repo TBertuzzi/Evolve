@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.Repository", "Evolve
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Evolve.Interface", "Evolve.Interface\Evolve.Interface.shproj", "{D000AF19-40B8-4925-998C-DAA833129691}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.Api", "Evolve.Api\Evolve.Api.csproj", "{475CBF70-93DA-4CF4-8C72-C3C4AF6BFD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.Web", "Evolve.Web\Evolve.Web.csproj", "{60E69166-ECC7-430C-A5CD-39F85485DA28}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Evolve.Models\Evolve.Models.projitems*{409d6ee3-3bf2-48cb-af37-116468eb749b}*SharedItemsImports = 13
@@ -39,6 +43,14 @@ Global
 		{467AECA7-F9A8-4A1A-BEB9-19AAF6EE112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{467AECA7-F9A8-4A1A-BEB9-19AAF6EE112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{467AECA7-F9A8-4A1A-BEB9-19AAF6EE112C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475CBF70-93DA-4CF4-8C72-C3C4AF6BFD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CBF70-93DA-4CF4-8C72-C3C4AF6BFD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CBF70-93DA-4CF4-8C72-C3C4AF6BFD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CBF70-93DA-4CF4-8C72-C3C4AF6BFD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E69166-ECC7-430C-A5CD-39F85485DA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E69166-ECC7-430C-A5CD-39F85485DA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E69166-ECC7-430C-A5CD-39F85485DA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E69166-ECC7-430C-A5CD-39F85485DA28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

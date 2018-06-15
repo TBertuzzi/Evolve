@@ -9,5 +9,7 @@
     <Import_RootNamespace>Evolve.Interface</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Repository\BaseRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\BaseService.cs" />
   </ItemGroup>
 </Project>
